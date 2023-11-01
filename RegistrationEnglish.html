@@ -1,0 +1,172 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+    <form action="#" name="dangky" method="post">
+        <div class="register-table">
+            <table class="outside-table">
+                <caption>
+                    <h4 class="table-caption">MEMBER REGISTRATION</h4>
+                </caption>
+                <tfoot>
+                    <tr>
+                        <td>
+                            <input type="submit" name="register" value="Login">
+                            <input type="reset" name="cancel" value="Cancel">
+                        </td>
+                    </tr>
+                </tfoot>
+                <tr>
+                    <td>
+                        <!-- <form action="#" name="personal-info" method="post"> -->
+                            <fieldset>
+                                <legend><b>Personal information</b></legend>
+                                <table>
+                                    <colgroup>
+                                        <col style="width: 75px;">
+                                        <col style="width: 275px;">
+                                    </colgroup>
+                                    <tr>
+                                        <td><label for="fullname">Full name:</label></td>
+                                        <td><input type="text" name="name" id="fullname" required size="30px"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="dOb">Birthday:</label></td>
+                                        <td>
+                                            <select name="Now" id="dOb">
+                                                <option value="01" selected>01</option>
+                                                <option value="02">02</option>
+                                                <option value="03">03</option>
+                                                <option value="04">04</option>
+                                                <option value="05">05</option>
+                                                <option value="06">06</option>
+                                                <option value="07">07</option>
+                                                <option value="08">08</option>
+                                                <option value="09">09</option>
+                                                <option value="10">10</option>
+                                                <option value="11">11</option>
+                                                <option value="12">12</option>
+                                                <option value="13">13</option>
+                                                <option value="14">14</option>
+                                                <option value="15">15</option>
+                                                <option value="16">16</option>
+                                                <option value="17">17</option>
+                                                <option value="18">18</option>
+                                                <option value="19">19</option>
+                                                <option value="20">20</option>
+                                                <option value="21">21</option>
+                                                <option value="22">22</option>
+                                                <option value="23">23</option>
+                                                <option value="24">24</option>
+                                                <option value="25">25</option>
+                                                <option value="26">26</option>
+                                                <option value="27">27</option>
+                                                <option value="28">28</option>
+                                                <option value="29">29</option>
+                                                <option value="30">30</option>
+                                                <option value="31">31</option>
+                                            </select>
+                                            <label for="mOb">Month</label>
+                                            <select name="Now" id="mOb">
+                                                <option value="01" selected>01</option>
+                                                <option value="02">02</option>
+                                                <option value="03">03</option>
+                                                <option value="04">04</option>
+                                                <option value="05">05</option>
+                                                <option value="06">06</option>
+                                                <option value="07">07</option>
+                                                <option value="08">08</option>
+                                                <option value="09">09</option>
+                                                <option value="10">10</option>
+                                                <option value="11">11</option>
+                                                <option value="12">12</option>
+                                            </select>
+                                            <label for="yOb">Year</label>
+                                            <input type="text" name="year" id="yOb" required size="4">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Gender:</td>
+                                        <td>
+                                            <input type="radio" id="male" name="gender" checked>
+                                            <label for="male">Male</label>
+                                            <input type="radio" id="female" name="gender">
+                                            <label for="female">Female</label>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="address">Address:</label></td>
+                                        <td><textarea id="address" cols="30" rows="3"></textarea></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="phone">Telephone:</label></td>
+                                        <td><input type="tel" id="phone" required maxlength="10" size="30"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="email">Email:</label></td>
+                                        <td><input type="email" id="email" required pattern="[^ @]*@[^ @].[^ @]" size="30">
+                                        </td>
+                                    </tr>
+                                </table>
+                            </fieldset>
+                        <!-- </form> -->
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <!-- <form action="#" name="login-info" method="post"> -->
+                            <fieldset>
+                                <legend><b>Credentials</b></legend>
+                                <table>
+                                    <colgroup>
+                                        <col style="width: 125px;">
+                                        <col style="width: 175px;">
+                                    </colgroup>
+                                    <tr>
+                                        <td><label for="username">Username:</label></td>
+                                        <td><input type="text" name="username" id="username" required size="25px"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="password">Password:</label></td>
+                                        <td><input type="password" name="password" id="password" required size="25px"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="cf-pass">Confirm Password:</label></td>
+                                        <td><input type="password" name="confirm-password" id="cf-pass" required
+                                                size="25px"></td>
+                                    </tr>
+                                </table>
+                            </fieldset>
+                        <!-- </form> -->
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </form>
+    <style>
+        .register-table {
+            border: 1px black solid;
+            margin: auto;
+            width: 390px;
+            padding: 7px;
+            padding-bottom: 18px;
+        }
+        .outside-table {
+            margin-right: 0;
+        }
+        form {
+            margin-bottom: 0;
+        }
+        table tfoot {
+            text-align: center;
+        }
+        .table-caption {
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+    </style>
+</body>
+</html>

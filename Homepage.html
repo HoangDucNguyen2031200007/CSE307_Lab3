@@ -1,0 +1,109 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC Bookstore</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/Homepage.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logoABCbook.png">
+        </div>
+        <div class="top-links">
+            <i class="fa fa-user-circle" aria-hidden="true"></i><a href="login.html">Login</a>|<a
+                href="RegistrationEnglish.html">Registration</a>
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i><a href="#">Cart</a>
+        </div>
+    </header>
+    <nav>
+        <div class="menu-list">
+            <ul>
+                <li><a href="Homepage.html">HOME PAGE</a></li>
+                <li><a href="Lab1_Q4.html">INTRODUCTION</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </div>
+        <div class="search-bar">
+            <input type="search" placeholder="Enter the title of the book..." size="30px">
+            <input type="submit" value="Find books">
+        </div>
+    </nav>
+    <div>
+        <article>
+            <aside>
+                <div class="detail-box">
+                    <h3 class="first-header">BOOK BY SUBJECT</h3>
+                    <ul type="square">
+                        <li><a href="#">Foreign language</a></li>
+                        <li><a href="#">Information technology</a></li>
+                        <li><a href="#">Law</a></li>
+                        <li><a href="#">Literature</a></li>
+                        <li><a href="#">Science and Technology</a></li>
+                        <li><a href="#">Agriculture</a></li>
+                        <li><a href="#">History and Geography</a></li>
+                        <li><a href="#">Economics</a></li>
+                        <li><a href="#">Daily life</a></li>
+                    </ul>
+                    <h3>BOOK BY PUBLISHER</h3>
+                    <ul type="square">
+                        <li><a href="#">Young publishers</a></li>
+                        <li><a href="#">Statistics Publishing House</a></li>
+                        <li><a href="#">Bronze Needle</a></li>
+                        <li><a href="#">National University</a></li>
+                        <li><a href="#">Artistic Craft Culture</a></li>
+                        <li><a href="#">Culture</a></li>
+                        <li><a href="#">Labor - Society</a></li>
+                        <li><a href="#">Science & Engineering</a></li>
+                    </ul>
+                </div>
+            </aside>
+
+            <section>
+                <div class="product-box">
+                    <h2>Giáo trình Tin học cơ bản</h2>
+                    <a href="detailproduct.html"><img src="img/Book.png" alt="Informatic-Book" width="200px"
+                            height="300px"></a>
+                    <p>Đơn giá: <span style="color: red;">26,000 VNĐ</span></p>
+                    <input type="image" src="img/Buy.png" alt="Buy-Book" width="90px" height="30px">
+                </div>
+            </section>
+
+            <aside>
+                <div>
+                    <h3>BESTSELLER</h3>
+                </div>
+                <div>
+                    <marquee direction="up" scrollamount="15" scrolldelay="10" onmousemove="stop()" onmouseout="start()"
+                        height="450px" class="best-seller">
+                        <p><a href="#"><img src="img/EnglishForTech.jpg">English For Tech</a></p>
+                        <p><a href="#"><img src="img/BARC.png">BARC Computer Science</a></p>
+                        <p><a href="#"><img src="img/harrypotter.png">Harry Potter</a></p>
+                        <p><a href="#"><img src="img/VisualBasic.png">Visual Basic</a></p>
+                    </marquee>
+                </div>
+                <div>
+                    <h3>THE WEBSITE LINKS</h3>
+                    <select name="links" id="webLink">
+                        <option value="0" selected>--- Select the linking page ---</option>
+                        <option value="https://lib.eiu.edu.vn/">Eastern International University Library</option>
+                        <option value="https://eiu.edu.vn/">Eastern International University</option>
+                    </select>
+                    <h3>ACCESS STATISTICS</h3>
+                    <p><b>Total Access: 500</b></p>
+                    <p><b>Online: 3</b></p>
+                </div>
+            </aside>
+        </article>
+    </div>
+    <footer>
+        <p><i class="fa fa-copyright" aria-hidden="true"></i>2016 - ABC BookStore. Allright Reserved</p>
+        <p>Website is developed to be used as a hands-on exercise in Web Programming</p>
+        <p>Email: abcbookstore@gmail.com</p>
+    </footer>
+</body>
+
+</html>

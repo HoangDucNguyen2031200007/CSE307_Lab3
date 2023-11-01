@@ -1,0 +1,87 @@
+/* * {
+    margin: 0px;
+    padding: 0px;
+} */
+
+header {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+.logo {
+    text-align: left;
+}
+
+.logo img {
+    width: 300px;
+    height: 150px;
+}
+
+.top-links {
+    text-align: right;
+    font-weight: bold;
+}
+
+.top-links a {
+    margin: 5px;
+    font-family: sans-serif
+}
+
+.top-links a:hover {
+    color: #900;
+}
+
+nav {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(89, 235, 152);
+    display: inline-block;
+}
+
+.menu-list {
+    text-align: left;
+}
+
+.menu-list ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-list ul li {
+    float: left;
+}
+
+.menu-list ul li a {
+    display: block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-decoration: none;
+    color: red;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-left: 1px solid black;
+}
+
+.menu-list ul li a:hover {
+    text-decoration: underline;
+}
+.search-bar {
+    text-align: right;
+}
+
+.best-seller img {
+    width: 200px;
+    height: 300px;
+}
+
+.first-header {
+    margin-top: 5px;
+}
+
+.detail-box {
+    height: auto;
+    width: 300px;
+    padding: 10px;
+}
