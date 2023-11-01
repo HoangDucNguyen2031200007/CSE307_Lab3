@@ -37,6 +37,7 @@ nav {
     text-align: center;
     background-color: rgb(89, 235, 152);
     display: inline-block;
+    border: 1px solid black;
 }
 
 .menu-list {
@@ -62,6 +63,10 @@ nav {
     font-family: sans-serif;
     font-weight: bold;
     border-left: 1px solid black;
+}
+
+.home-link {
+    border-left: none !important;
 }
 
 .menu-list ul li a:hover {
